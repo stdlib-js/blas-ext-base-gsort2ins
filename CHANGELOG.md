@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-08)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
 -   [`7d5e0aa`](https://github.com/stdlib-js/stdlib/commit/7d5e0aab1f348b4b4ed7e039c6e3745442f479e1) - **feat:** add accessor arrays support and refactor `blas/ext/base/gsort2ins` [(#5089)](https://github.com/stdlib-js/stdlib/pull/5089) _(by Muhammad Haris)_
 
 </details>
@@ -34,8 +35,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Muhammad Haris
 
 </section>

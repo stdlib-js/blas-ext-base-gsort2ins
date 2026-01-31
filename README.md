@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gsort2ins from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gsort2ins/tags). For example,
+
+```javascript
 import gsort2ins from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@v0.3.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@esm/index.mjs';
 ```
 
 #### gsort2ins( N, order, x, strideX, y, strideY )
@@ -187,7 +192,7 @@ console.log( y );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gsort2ins from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@v0.3.0-esm/index.mjs';
+import gsort2ins from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'

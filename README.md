@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gsort2ins from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@deno/mod.js';
+import gsort2ins from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@v0.3.1-deno/mod.js';
 ```
 
 #### gsort2ins( N, order, x, strideX, y, strideY )
@@ -182,7 +182,7 @@ console.log( y );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import gsort2ins from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@deno/mod.js';
+import gsort2ins from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2ins@v0.3.1-deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'

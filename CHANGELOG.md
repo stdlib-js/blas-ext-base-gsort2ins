@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-06-07)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`cd863cf`](https://github.com/stdlib-js/stdlib/commit/cd863cfcc93259fc77714263c6c8b532c84563a3) - **docs:** propagate recent develop fixes to sibling packages [(#12642)](https://github.com/stdlib-js/stdlib/pull/12642) _(by Philipp Burckhardt)_
 -   [`f9d1409`](https://github.com/stdlib-js/stdlib/commit/f9d140985e169d34f4e66bd770dc675ea28588a3) - **docs:** add missing JSDoc comment _(by Athan Reines)_
 -   [`0f36255`](https://github.com/stdlib-js/stdlib/commit/0f362554d1999b233a60616232d914ff82eb5bb8) - **bench:** refactor to use string interpolation in blas/ext/base/gsort2ins [(#10818)](https://github.com/stdlib-js/stdlib/pull/10818) _(by Kamal Singh Rautela)_
 
@@ -25,10 +26,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kamal Singh Rautela
+-   Philipp Burckhardt
 
 </section>
 
